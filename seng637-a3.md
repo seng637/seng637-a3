@@ -78,6 +78,7 @@ ALL students should ensure that they understand the concepts in this section bef
 8.  Expand the source folder in the left panel and select _org_, then click on _Finish_ button. You should see the same panel as Figure 2.
 
 **NOTE:** You might need to follow the steps in assignment 2 for _Adding External Libraries_ so then you have the _External Libraries_ as well.
+
 <img src="media/1.jpg" alt="media/1.jpg" width="360"/>
 
 **Figure 1 - New Java Project dialog with name and source path filled in**
@@ -105,11 +106,11 @@ For the purpose of demonstrating the abilities of coverage tools, the test suite
 
     - In the new panel on the _Import_ dialog, click on the _Browse…_ button to choose the directory you import your files from, then navigate to the directory from your previous assignment containing your test files for Range and DataUtilites. Click _OK_.
 
-    - Check your DataUtilities and Range test classes (something similar to what is shown in Figure 3 below). Then click _Finish_.
+    - Check your DataUtilities and Range test classes (something similar to what is shown in Figure 4 below). Then click _Finish_.
 
 <img src="media/3.png" alt="media/3.png" width="360"/>
 
-**Figure 3 - Import dialog with Assignment 2 test classes selected**
+**Figure 4 - Import dialog with Assignment 2 test classes selected**
 
 The test classes selected are now included in the org.jfree.data package in the new project. **_BUT: please make sure this is the case and that the package name in your test class is defined as org.jfree.data._**
 
@@ -156,7 +157,7 @@ To become more familiar with data flow coverage and achieve a deeper understandi
 
 In this section, you will be required to **design new unit tests** for two classes to increase their code coverage. The classes to be tested are: org.jfree.data.DataUtilities and org.jfree.data.Range. Note that although the focus in adequacy criteria has changed (it is now on source code), to develop new test cases the test oracle should still be derived from the requirements (as contained in the Javadocs of the SUT)
 
-As with any testing to be done, to begin with, a plan must be created. Document this test plan, as it will be included with your lab report. This plan should include information about who will create which tests, how you plan to develop tests to achieve the adequacy criteria. For thiassignment, a test suite should be developed which has at least thfollowing coverage for each of the classes under test
+As with any testing to be done, to begin with, a plan must be created. Document this test plan, as it will be included with your lab report. This plan should include information about who will create which tests, how you plan to develop tests to achieve the adequacy criteria. For this assignment, a test suite should be developed which has at least following coverage for each of the classes under test
 
 Minimum coverage:
 
