@@ -104,7 +104,7 @@ For the purpose of demonstrating the abilities of coverage tools, the test suite
 
     - In the _Import_ dialog, select the _File System_ option (in the _General_ category) and click _Next_.
 
-    - In the new panel on the _Import_ dialog, click on the _Browse…_ button to choose the directory you import your files from, then navigate to the directory from your previous assignment containing your test files for Range and DataUtilites. Click _OK_.
+    - In the new panel on the _Import_ dialog, click on the _Browse…_ button to choose the directory you import your files from, then navigate to the directory from your previous assignment containing your test files for Range and DataUtilities. Click _OK_.
 
     - Check your DataUtilities and Range test classes (something similar to what is shown in Figure 4 below). Then click _Finish_.
 
@@ -143,7 +143,7 @@ Measurement of code coverage is performed in two main steps. First, classes must
 
 ## 3.2 Measure Data Flow Coverage Manually
 
-To become more familiar with data flow coverage and achieve a deeper understanding of how coverage tools work, calculate the DU-pair coverage for two methods, by hand. The methods to analyze are: DataUtilities.calculateColumnTotal and one method of your choice from the org.jfree.data.Range class (that you have a test set for, from Assignment 2). Calculate the DU-pair coverage by tracing through the execution of each of your test cases for these methods, manually. This will need to be included in your report. You need to report the followings per method:
+To become more familiar with data flow coverage and achieve a deeper understanding of how coverage tools work, calculate the DU-pair coverage for two methods, by hand. The methods to analyze are: DataUtilities.calculateColumnTotal and one method of your choice from the org.jfree.data.Range class (that you have a test set for, from Assignment 2). Calculate the DU-pair coverage by tracing through the execution of each of your test cases for these methods, manually. This will need to be included in your report. You need to report the following per method:
 
 - the data flow graph
 
@@ -171,7 +171,7 @@ Minimum coverage:
 
 Carry out your test plan, creating tests for all methods. As a good test designer, you have to keep each test case (for a single control flow path for example) in a separate method, for example: testPositiveValuesForMethodX() and testNegativeValuesForMethodX(), instead of a single testMethodX(). This will help to keep test cases consistent, and make metrics taken later on more meaningful. Note that the classes have random defects in them intentionally, and thus several of your tests should fail. Therefore, to develop test oracles in your test code, you need to follow the specifications, not the actual results by the SUT code.
 
-If you have divided the tests and completed them individually, then upon completion of the tests, review each other’s’ tests, looking for any inconsistencies or defects in the tests themselves. Include all the updates made during the peer review process in your lab report
+If you have divided the tests and completed them individually, then upon completion of the tests, review each other’s tests, looking for any inconsistencies or defects in the tests themselves. Include all the updates made during the peer review process in your lab report
 
 Measure the code coverage (only control flow metrics as listed above) of your entire test suite, and record detailed coverage information for each class and method. Include this information (preferably in a tabular form) in your lab report
 
@@ -188,7 +188,7 @@ The test suite will be required to be submitted along with the lab report. Stude
 
 | Marking Scheme                                                                                                                                                                                             |     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| **Code coverage**: lesser coverage than coverage target specified in lab instructions above, would decrement your mark proportionally, unless you explain it by a valid the reason (e.g., infeasible path) | 20% |
+| **Code coverage**: lower coverage than coverage target specified in lab instructions above, would decrement your mark proportionally, unless you explain it by a valid reason (e.g., infeasible path) | 20% |
 | **Clarity** (are they easy to follow, through commenting or style, etc.?)                                                                                                                                  | 15% |
 | **Correctness** (do the tests actually test what they are intended to test?)                                                                                                                               | 15% |
 
